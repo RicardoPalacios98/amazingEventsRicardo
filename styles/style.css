@@ -1,0 +1,11 @@
+.logo {
+width: 20%;
+
+}
+
+.banner {
+width: 100vw;
+height: 40vh;
+object-fit: cover;
+
+}
