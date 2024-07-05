@@ -18,10 +18,9 @@
 <body>
     <div class="layout">
         <header class="d-flex">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary col-12">
+                <div class="container-fluid col">
                     <img class="logo m-2" src="./resources/amazing_brand.png" alt="logo">
-                    <a class="navbar-brand" href="#">HOME</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -29,7 +28,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#">HOME</a>
                             <a class="nav-link" href="#">UPCOMING EVENTS</a>
                             <a class="nav-link" href="#">PAST EVENTS</a>
                             <a class="nav-link" href="#">CONTACT</a>
@@ -64,7 +63,7 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <div class="d-flex justify-content-between col-12">
+            <div class="d-flex justify-content-between col-12 mt-1 mb-1">
                 <div class="form-check d-flex align-items-center">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault">
@@ -101,75 +100,85 @@
                     </button>
                 </div>
             </div>
-            <div class="d-flex flex-wrap m-1 justify-content-center col-12">
-                <div class="card col-12 col-lg-6" style="width: 18rem;">
-                    <img src="/resources/food_fair.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Details</a>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-12" style="width: 18rem;">
-                    <img src="/resources/cinema.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Details</a>
+            <div class="d-flex flex-wrap gap-2 justify-content-center col-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="/resources/food_fair.jpg" class="card-img-top p-1" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Festival of the collectivities</h5>
+                        <p class="card-text">Enjoy your favorite dishes from different countries in a unique event for
+                            the whole family.</p>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p>Price</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="/resources/costume_party.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Details</a>
+                    <img src="/resources/outing_to_the_museum.jpg" class="card-img-top p-1" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Art Exhibition</h5>
+                        <p class="card-text">Let's go to the art museum for an incredible tour to learn about the
+                            largest dinosaurs.</p>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p>Price</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="/resources/marathon.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Details</a>
+                    <img src="/resources/costume_party.jpg" class="card-img-top p-1" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Halloween Night</h5>
+                        <p class="card-text">Come in your scariest costume character to win amazing prizes.</p>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p>Price</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="/resources/marathon.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Details</a>
+                    <img src="/resources/music_concert.jpg" class="card-img-top p-1" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Metallica in concert</h5>
+                        <p class="card-text">The only concert of the most emblematic band in the world</p>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p>Price</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="/resources/marathon.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Details</a>
+                    <img src="/resources/marathon.jpg" class="card-img-top p-1" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">10K for life</h5>
+                        <p class="card-text">Come and exercise, improve your health and lifestyle.</p>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p>Price</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="/resources/marathon.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Details</a>
+                    <img src="/resources/books.jpg" class="card-img-top p-1" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">School Book Fair</h5>
+                        <p class="card-text">Bring your unused school book and bring the one you need.</p>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p>Price</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="/resources/cinema.jpg" class="card-img-top p-1" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Avengers</h5>
+                        <p class="card-text">Marvel's Avengers 3d premiere the start of an epic saga with your best
+                            superheroes.</p>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p>Price</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
                     </div>
                 </div>
         </main>
