@@ -1,3 +1,5 @@
+
+
 .logo {
 width: 18%;
 
@@ -5,7 +7,18 @@ width: 18%;
 
 .banner {
 width: 100vw;
-height: 40vh;
+height: 39vh;
 object-fit: cover;
+
+}
+
+.banner_Title {
+font-size: 7rem;
+background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.color_button {
+color: white;
 
 }
