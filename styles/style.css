@@ -7,7 +7,7 @@ width: 18%;
 
 .banner {
 width: 100vw;
-height: 39vh;
+height: 33vh;
 object-fit: cover;
 
 }
@@ -20,5 +20,10 @@ background-color: rgba(0, 0, 0, 0.5);
 
 .color_button {
 color: white;
+
+}
+
+.footer_height {
+height: 8vh;
 
 }
