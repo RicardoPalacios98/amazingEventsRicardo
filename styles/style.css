@@ -1,8 +1,9 @@
 
 
 .logo {
-width: 18%;
-
+width: 30%;
+min-width: 120px;
+max-width: 300px;
 }
 
 
@@ -13,9 +14,10 @@ object-fit: cover;
 
 }
 
-.banner_Title {
+.banner_title {
 font-size: 5rem;
 background-color: rgba(0, 0, 0, 0.5);
+color: white;
 
 }
 
@@ -26,5 +28,10 @@ color: white;
 
 .footer_height {
 height: 8vh;
+
+}
+
+.card_size {
+height: 45vh;
 
 }
