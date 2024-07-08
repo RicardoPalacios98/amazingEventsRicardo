@@ -5,6 +5,7 @@ width: 18%;
 
 }
 
+
 .banner {
 width: 100vw;
 height: 33vh;
@@ -13,7 +14,7 @@ object-fit: cover;
 }
 
 .banner_Title {
-font-size: 7rem;
+font-size: 5rem;
 background-color: rgba(0, 0, 0, 0.5);
 
 }
